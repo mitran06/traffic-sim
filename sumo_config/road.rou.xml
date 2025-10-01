@@ -1,0 +1,38 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="27.78" color="blue"/>
+    <vType id="ambulance" accel="3.5" decel="6.0" sigma="0.3" length="6" maxSpeed="35" color="red"/>
+    
+    <route id="route0" edges="edge0" />
+    
+    <!-- Regular vehicles - individual spawn times for guaranteed spawning -->
+    <vehicle id="car_01" type="car" route="route0" depart="0" />
+    <vehicle id="car_02" type="car" route="route0" depart="2" />
+    <vehicle id="car_03" type="car" route="route0" depart="4" />
+    <vehicle id="car_04" type="car" route="route0" depart="6" />
+    <vehicle id="car_05" type="car" route="route0" depart="8" />
+    <vehicle id="car_06" type="car" route="route0" depart="10" />
+    <vehicle id="car_07" type="car" route="route0" depart="12" />
+    <vehicle id="car_08" type="car" route="route0" depart="14" />
+    <vehicle id="car_09" type="car" route="route0" depart="16" />
+    <vehicle id="car_10" type="car" route="route0" depart="18" />
+    <vehicle id="car_11" type="car" route="route0" depart="20" />
+    <vehicle id="car_12" type="car" route="route0" depart="22" />
+    <vehicle id="car_13" type="car" route="route0" depart="24" />
+    <vehicle id="car_14" type="car" route="route0" depart="26" />
+    <vehicle id="car_15" type="car" route="route0" depart="28" />
+    <vehicle id="car_16" type="car" route="route0" depart="30" />
+    <vehicle id="car_17" type="car" route="route0" depart="32" />
+    <vehicle id="car_18" type="car" route="route0" depart="34" />
+    <vehicle id="car_19" type="car" route="route0" depart="36" />
+    <vehicle id="car_20" type="car" route="route0" depart="38" />
+    
+    <!-- Emergency vehicle spawns when there's already traffic -->
+    <vehicle id="ambulance_01" type="ambulance" route="route0" depart="40" />
+    
+    <!-- Additional vehicles continue spawning -->
+    <vehicle id="car_21" type="car" route="route0" depart="42" />
+    <vehicle id="car_22" type="car" route="route0" depart="44" />
+    <vehicle id="car_23" type="car" route="route0" depart="46" />
+    <vehicle id="car_24" type="car" route="route0" depart="48" />
+    <vehicle id="car_25" type="car" route="route0" depart="50" />
+</routes>

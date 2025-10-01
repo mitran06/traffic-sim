@@ -1,0 +1,4 @@
+time,source_id,receiver_id,alert_type,distance,action
+197.0,flow0.56,,road_hazard,0,started
+197.0,flow0.56,flow0.57,road_hazard,48.391146406811686,received
+197.0,flow0.57,,road_hazard,0,forwarded
