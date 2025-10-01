@@ -1,7 +1,0 @@
-time,event_type,vehicle_id,cluster_id,distance
-61.0,emergency_spawn,ambulance_01,,0
-61.0,leader_elected,car_20,cluster_ambulance_01,9.087952181743457
-64.0,leader_changed,car_20,cluster_ambulance_01,24.89557517863193
-64.0,leader_elected,car_21,cluster_ambulance_01,12.764049714446651
-65.0,leader_changed,car_21,cluster_ambulance_01,21.212975856177977
-65.0,leader_elected,car_20,cluster_ambulance_01,28.61093075416935
